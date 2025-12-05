@@ -5,7 +5,7 @@ export interface Product {
   price: number;
   originalPrice?: number;
   image: string;
-  category: 'damas' | 'ninos' | 'sabanas' | 'edredones';
+  category: 'damas' | 'ninos' | 'ninas' | 'sabanas' | 'edredones';
   sizes?: string[];
   colors?: string[];
   material: string;
@@ -177,6 +177,58 @@ export const products: Product[] = [
     material: 'Algodón Estampado',
     isBestseller: true,
   },
+  // Pijamas para Niñas
+  {
+    id: 'pna-001',
+    name: 'Pijama Candy Princesa',
+    description: 'Adorable conjunto con princesas y dulces. Camiseta y short con diseño colorido.',
+    price: 39.99,
+    image: 'pajama-ninas-candy',
+    category: 'ninas',
+    sizes: ['4', '6', '8', '10', '12'],
+    colors: ['Morado', 'Amarillo'],
+    material: 'Algodón Suave',
+    isNew: true,
+    isBestseller: true,
+  },
+  {
+    id: 'pna-002',
+    name: 'Pijama Powerpuff Girls',
+    description: 'Conjunto de Las Chicas Superpoderosas. Camiseta y pantalón con estrellas rosa.',
+    price: 42.99,
+    image: 'pajama-ninas-powerpuff',
+    category: 'ninas',
+    sizes: ['4', '6', '8', '10', '12'],
+    colors: ['Rosa', 'Blanco'],
+    material: 'Algodón Premium',
+    isBestseller: true,
+  },
+  {
+    id: 'pna-003',
+    name: 'Pijama Rapunzel',
+    description: 'Mágico conjunto de Rapunzel con escena del castillo. Camiseta y pantalón dorado.',
+    price: 44.99,
+    originalPrice: 52.99,
+    image: 'pajama-ninas-rapunzel',
+    category: 'ninas',
+    sizes: ['6', '8', '10', '12'],
+    colors: ['Morado', 'Dorado'],
+    material: 'Algodón Estampado',
+    isNew: true,
+  },
+  {
+    id: 'pna-004',
+    name: 'Pijama Vanellope',
+    description: 'Conjunto de Vanellope de Ralph el Demoledor. Camiseta y pantalón con arcoíris.',
+    price: 42.99,
+    image: 'pajama-ninas-vanellope',
+    category: 'ninas',
+    sizes: ['6', '8', '10', '12'],
+    colors: ['Celeste', 'Rosa'],
+    material: 'Algodón Suave',
+    isNew: true,
+    isBestseller: true,
+  },
   // Sábanas
   {
     id: 'sb-001',
@@ -244,6 +296,12 @@ export const categories = [
     name: 'Pijamas para Niños',
     description: 'Diseños adorables para los pequeños',
     icon: '🧸',
+  },
+  {
+    id: 'ninas',
+    name: 'Pijamas para Niñas',
+    description: 'Princesas y personajes favoritos',
+    icon: '👸',
   },
   {
     id: 'sabanas',
