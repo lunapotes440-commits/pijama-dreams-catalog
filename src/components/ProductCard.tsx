@@ -5,9 +5,13 @@ import { cn } from '@/lib/utils';
 import type { Product } from '@/data/products';
 
 // Import all product images
-import pajamaDamas1 from '@/assets/pajama-damas-1.jpg';
-import pajamaDamas2 from '@/assets/pajama-damas-2.jpg';
-import pajamaDamas3 from '@/assets/pajama-damas-3.jpg';
+import pajamaDamasMinnie from '@/assets/pajama-damas-minnie.jpg';
+import pajamaDamasLove from '@/assets/pajama-damas-love.jpg';
+import pajamaDamasGatito from '@/assets/pajama-damas-gatito.jpg';
+import pajamaDamasHelloKitty from '@/assets/pajama-damas-hellokitty.jpg';
+import pajamaDamasCupcakeCrema from '@/assets/pajama-damas-cupcake-crema.jpg';
+import pajamaDamasCupcakeMorado from '@/assets/pajama-damas-cupcake-morado.jpg';
+import pajamaDamasStitch from '@/assets/pajama-damas-stitch.jpg';
 import pajamaNinosBluey from '@/assets/pajama-ninos-bluey.jpg';
 import pajamaNinosMickey from '@/assets/pajama-ninos-mickey.jpg';
 import pajamaNinosCapybara from '@/assets/pajama-ninos-capybara.jpg';
@@ -20,9 +24,13 @@ import edredon1 from '@/assets/edredon-1.jpg';
 import edredon2 from '@/assets/edredon-2.jpg';
 
 const imageMap: Record<string, string> = {
-  'pajama-damas-1': pajamaDamas1,
-  'pajama-damas-2': pajamaDamas2,
-  'pajama-damas-3': pajamaDamas3,
+  'pajama-damas-minnie': pajamaDamasMinnie,
+  'pajama-damas-love': pajamaDamasLove,
+  'pajama-damas-gatito': pajamaDamasGatito,
+  'pajama-damas-hellokitty': pajamaDamasHelloKitty,
+  'pajama-damas-cupcake-crema': pajamaDamasCupcakeCrema,
+  'pajama-damas-cupcake-morado': pajamaDamasCupcakeMorado,
+  'pajama-damas-stitch': pajamaDamasStitch,
   'pajama-ninos-bluey': pajamaNinosBluey,
   'pajama-ninos-mickey': pajamaNinosMickey,
   'pajama-ninos-capybara': pajamaNinosCapybara,
