@@ -18,6 +18,10 @@ import pajamaNinosCapybara from '@/assets/pajama-ninos-capybara.jpg';
 import pajamaNinosSonic from '@/assets/pajama-ninos-sonic.jpg';
 import pajamaNinosGoku from '@/assets/pajama-ninos-goku.jpg';
 import pajamaNinosAvengers from '@/assets/pajama-ninos-avengers.jpg';
+import pajamaNinasCandy from '@/assets/pajama-ninas-candy.jpg';
+import pajamaNinasPowerpuff from '@/assets/pajama-ninas-powerpuff.jpg';
+import pajamaNinasRapunzel from '@/assets/pajama-ninas-rapunzel.jpg';
+import pajamaNinasVanellope from '@/assets/pajama-ninas-vanellope.jpg';
 import sabana1 from '@/assets/sabana-1.jpg';
 import sabana2 from '@/assets/sabana-2.jpg';
 import edredon1 from '@/assets/edredon-1.jpg';
@@ -37,6 +41,10 @@ const imageMap: Record<string, string> = {
   'pajama-ninos-sonic': pajamaNinosSonic,
   'pajama-ninos-goku': pajamaNinosGoku,
   'pajama-ninos-avengers': pajamaNinosAvengers,
+  'pajama-ninas-candy': pajamaNinasCandy,
+  'pajama-ninas-powerpuff': pajamaNinasPowerpuff,
+  'pajama-ninas-rapunzel': pajamaNinasRapunzel,
+  'pajama-ninas-vanellope': pajamaNinasVanellope,
   'sabana-1': sabana1,
   'sabana-2': sabana2,
   'edredon-1': edredon1,
