@@ -31,6 +31,13 @@ const Index = () => {
         />
         
         <CategorySection
+          id="ninas"
+          title="Pijamas para Niñas"
+          subtitle="Princesas y personajes favoritos para las pequeñas soñadoras. Diseños mágicos y encantadores."
+          category="ninas"
+        />
+        
+        <CategorySection
           id="sabanas"
           title="Sábanas Premium"
           subtitle="Suavidad incomparable para tu descanso. Algodón egipcio y microfibra de la más alta calidad."
